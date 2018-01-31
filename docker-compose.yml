@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+
+  master_controller:
+    image: skasip/eg1_master
+    ports:
+      - 5000:5000
+    build: ./master_controller
